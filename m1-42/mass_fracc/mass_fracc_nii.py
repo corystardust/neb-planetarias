@@ -14,7 +14,8 @@ temp_o3 = fits.getdata('/Users/leslycorina/iraf/archive/m1-42/TOIII4363_4959nsre
 
 #Voy a establecer las temperaturas del plasma normal y adicional:
 #Plasma normal:
-Te_pn=7500
+Te_pn=7500 #En el caso del plasma normal, se puede establecer la temperatura fija o usar el mapa de temperatura
+#no afecta significativamente al resultado
 ne_pn=1000
 #Plasma adicional:
 #Para el plasma adicional:
